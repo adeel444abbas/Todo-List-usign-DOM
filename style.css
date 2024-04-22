@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+#taskInput{
+ width: 20vw;
+ padding: 10px;
+}
+
+.btn{
+    padding:10px 30px;
+    color: #fff;
+    background-color: grey;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.delBtn{
+    padding: 0.5rem;
+    margin-left: 5rem;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
